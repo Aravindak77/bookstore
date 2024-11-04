@@ -1,0 +1,84 @@
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.search-bar {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input, .search-bar select {
+  margin-right: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.filter-select {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.filter-select select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.books-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.book {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s;
+
+}
+
+.book:hover {
+  transform: translateY(-5px);
+}
+
+.book img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.book h3 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.book p {
+  margin: 8px 0;
+}
+
+/* Style for select dropdown */
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Style for option */
+option {
+  cursor: pointer;
+}
